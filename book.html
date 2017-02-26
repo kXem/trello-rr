@@ -1,0 +1,14 @@
+<ul>
+    <li>
+    <a href="javascript:(function()%7Bvar%20rrnr%20%3D%20document.querySelector('input%23rijksregisterNummer.text').value%3Bwindow.open('https%3A%2F%2Ftrello.com%2Fsearch%3Fq%3D'%20%2B%20rrnr%2C%20'_trello')%7D)()">Inwoner naar trello</a>
+    </li>
+    <li>
+        <a href="javascript:(function()%7Bvar%20rrnr%20%3D%20document.querySelector('input%23rijksregisterNummerQuickDo.text').value%3Bwindow.open('https%3A%2F%2Ftrello.com%2Fsearch%3Fq%3D'%20%2B%20rrnr%2C%20'_trello')%7D)()">quickdo naar trello</a>
+    </li>
+    <li>
+        <a href="javascript:(function()%7Bvar%20rrnr%20%3D%20document.querySelector('div.text.attest').value%3Bvar%20pagina%20%3D%20document.body.innerHTML%3Bvar%20result%20%3D%20pagina.match(%2F%5Cb%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cb%2Fg)%3Bvar%20result2%20%3D%20result.filter(function%20(item%2C%20pos%2C%20self)%20%7Breturn%20self.indexOf(item)%20%3D%3D%20pos%3B%7D)%3Bvar%20rrnrs%20%3D%20'%5Cn%5Cn'%3Bresult2.forEach(function(element)%20%7Brrnrs%20%3D%20rrnrs%20%2B%20element%20%2B%20'%5Cn'%7D)%3Bvar%20zeker%20%3D%20confirm('Zoek%20al%20deze%20rrnrs%3A%20'%20%2B%20rrnrs)%3Bif%20(zeker%20%3D%3D%20true)%20%7Bresult2.forEach(function%20(element)%20%7Bvar%20tab%20%3D%20'hera'%20%2B%20Math.round(Math.random()%20*%209999%20%2B%201)%3Bwindow.open('https%3A%2F%2Ftrello.com%2Fsearch%3Fq%3D'%20%2B%20element%2C%20tab)%3B%7D)%3B%7D%7D)()">Alle rrns naar trello</a>
+    </li>
+    <li>
+        <a href="javascript:(function()%7Bvar%20pagina%20%3D%20document.querySelector('div.card-detail-window.u-clearfix').innerHTML%3Bvar%20result%20%3D%20pagina.match(%2F%5Cb%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cd%5Cb%2Fg)%3Bvar%20result2%20%3D%20result.filter(function%20(item%2C%20pos%2C%20self)%20%7Breturn%20self.indexOf(item)%20%3D%3D%20pos%3B%7D)%3Bvar%20rrnrs%20%3D%20'%5Cn%5Cn'%3Bresult2.forEach(function(element)%20%7Brrnrs%20%3D%20rrnrs%20%2B%20element%20%2B%20'%5Cn'%7D)%3Bvar%20zeker%20%3D%20confirm('Zoek%20al%20deze%20rrnrs%3A%20'%20%2B%20rrnrs)%3Bif%20(zeker%20%3D%3D%20true)%20%7Bresult2.forEach(function%20(element)%20%7Bvar%20tab%20%3D%20'hera'%20%2B%20Math.round(Math.random()%20*%209999%20%2B%201)%3Bwindow.open('https%3A%2F%2Fnbttc.antwerpen.be%2FHera%2FrijksregisterConsultatieAction.do%3Fmethod%3Dconsult%26vraag%3D79%20'%20%2B%20element%20%2B%20'%20N'%2C%20tab)%3B%7D)%3B%7D%7D)()">Alle rrns naar hera</a>
+    </li>
+</ul>
